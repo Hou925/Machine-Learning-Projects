@@ -2,8 +2,6 @@
 
 A collection of end-to-end machine learning projects covering classification, regression, clustering, sequence labeling, and audio recognition — each implemented with multiple models for direct comparison.
 
-> 中文版说明请见 [README_CN.md](./README_CN.md)
-
 ---
 
 ## Projects
@@ -57,27 +55,8 @@ A lightweight audio recognition model trained entirely in-browser via **Google T
 
 ---
 
-## Tech Stack
-
-| Area | Tools / Libraries |
-|------|------------------|
-| Deep Learning | TensorFlow / Keras |
-| Classical ML | scikit-learn |
-| Sequence Labeling | sklearn-crfsuite |
-| Data Processing | NumPy, Pandas |
-| Visualization | Matplotlib |
-| Audio (no-code) | Google Teachable Machine |
-
----
-
 ## Getting Started
 
-Each sub-project is self-contained as a Jupyter Notebook. Clone the repo and open any notebook to get started:
-
-```bash
-git clone https://github.com/Hou925/Machine-Learning-Projects.git
-cd Machine-Learning-Projects
-jupyter notebook
-```
+Clone the repo and open any notebook to get started
 
 Dependencies vary by project — check the import cells at the top of each notebook and install as needed (e.g., `pip install scikit-learn tensorflow sklearn-crfsuite`).
