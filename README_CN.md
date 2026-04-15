@@ -57,27 +57,8 @@
 
 ---
 
-## 技术栈
-
-| 领域 | 工具 / 库 |
-|------|----------|
-| 深度学习 | TensorFlow / Keras |
-| 传统机器学习 | scikit-learn |
-| 序列标注 | sklearn-crfsuite |
-| 数据处理 | NumPy、Pandas |
-| 可视化 | Matplotlib |
-| 音频（无代码） | Google Teachable Machine |
-
----
-
-## 快速开始
+## 开始项目
 
 各子项目均以独立的 Jupyter Notebook 形式呈现，克隆仓库后直接打开即可运行：
-
-```bash
-git clone https://github.com/Hou925/Machine-Learning-Projects.git
-cd Machine-Learning-Projects
-jupyter notebook
-```
 
 各项目依赖有所不同，请参考每个 Notebook 顶部的 `import` 单元格，按需安装（例如 `pip install scikit-learn tensorflow sklearn-crfsuite`）。
